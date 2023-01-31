@@ -1,7 +1,6 @@
 import math
-import time
 
-from utiilities import convert_letter_to_number, convert_number_to_letter, inverses
+from utiilities import convert_letter_to_number, convert_number_to_letter, inverses, alph_prob
 
 word_dict = {}
 sorted_word_dict = {}
@@ -31,34 +30,37 @@ def find_key(decrypted_letter_1, encrypted_letter_1, decrypted_letter_2, encrypt
     return (0, 0)
 
 
-# with open('ciphertext2.txt', 'r') as file:
-#     ciphertext = file.read()    
-ciphertext = "FMXVEDKAPHFERBNDKRXRSREFNORUDSDKDVSHVUFEDKAPRKDLYEVLRHHRH"
-find_letters_repition(ciphertext)
+with open('encrypted_ciphers/ciphertext6.txt', 'r') as file:
+    original_ciphertext = file.read()    
+find_letters_repition(original_ciphertext)
 print(sorted_word_dict)
 
 a, b = 0, 0
-for char in sorted_word_dict:
-    for other_char in sorted_word_dict:
-        if not char.isalpha():
+ciphertext = original_ciphertext
+for i in range(len(sorted_word_dict.keys())):
+    for j in range(1, len(sorted_word_dict.keys())):
+        ciphertext = original_ciphertext
+        if not list(sorted_word_dict.keys())[i].isalpha():
             break
-        if not other_char.isalpha():
+        if not list(sorted_word_dict.keys())[j].isalpha():
             continue
-        a, b = find_key(decrypted_letter_1=4, encrypted_letter_1=convert_letter_to_number(char), decrypted_letter_2=19, encrypted_letter_2=convert_letter_to_number(other_char))
+        a, b = find_key(decrypted_letter_1=convert_letter_to_number(list(alph_prob.keys())[i]), encrypted_letter_1=convert_letter_to_number(list(sorted_word_dict.keys())[i]), 
+                        decrypted_letter_2=convert_letter_to_number(list(alph_prob.keys())[i+1]), encrypted_letter_2=convert_letter_to_number(list(sorted_word_dict.keys())[j]))
+        print("equation 1: {} -> {}".format(list(sorted_word_dict.keys())[i].upper(), list(alph_prob.keys())[i]))
+        print("equation 2: {} -> {}".format(list(sorted_word_dict.keys())[j].upper(), list(alph_prob.keys())[i+1]))
         if a == 0 and b == 0:
-            print("Could not find key for equation one letter: {}, equation 2 letter: {}".format(char, other_char))
+            print("Could not find key\n")
         else:
-            print("key = ({}, {})".format(a, b))
-            print("for equation one letter: {}, equation 2 letter: {}".format(char, other_char))
+            print("key = ({}, {})\n".format(a, b))
             for encrypted_letter in ciphertext:
                 if not encrypted_letter.isalpha():
                     continue
                 num = (inverses.get(a)*(convert_letter_to_number(encrypted_letter)-b)) % 26
                 decrypted_letter = convert_number_to_letter(num)
-                ciphertext = ciphertext.replace(encrypted_letter, decrypted_letter).upper()
-            f = open("break_affine.txt", "w")
+                ciphertext = ciphertext.replace(encrypted_letter, decrypted_letter)
+            f = open("decrypted_ciphers/decrypted_cipher6.txt", "w")
             f.write(ciphertext)
             f.close()
-            # time.sleep(1)
-            # with open('ciphertext1.txt', 'r') as file:
-            #     ciphertext = file.read()
+            if "the" in ciphertext and "and" in ciphertext:
+                print("found")
+                exit()
