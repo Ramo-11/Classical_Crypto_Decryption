@@ -5,11 +5,11 @@ from utiilities import convert_letter_to_number, convert_number_to_letter, inver
 word_dict = {}
 sorted_word_dict = {}
 
-def find_letters_repition(plaintext):
+def find_letters_repition(ciphetext):
     global word_dict
     global sorted_word_dict
-    plaintext = plaintext.lower()
-    for letter in plaintext:
+    ciphetext = ciphetext.lower()
+    for letter in ciphetext:
         if letter in word_dict.keys():
             prev_value = word_dict.get(letter)
             new_value = prev_value + 1
