@@ -30,20 +30,15 @@ def permutations(key):
     deciphered_text = ""
     numbers = list(range(1, key + 1))
     permutations = list(itertools.permutations(numbers))
-    # for permutation in permutations:
-    #     print(permutation)
-    #     if permutation == [6,1,9,3,2,0,8,4,5,7]:
-    #         print("Here we go")
-    #     if permutation == [1,2,3,4,5,6,8,7,9,10]:
-    #         print("Here we go")
-    #     # example: [3, 2, 1]
-    #     permutation = list(permutation)
-    #     # print("\npermutation {}:".format(permutation))
-    #     num = 0
+    for permutation in permutations:
+        print(permutation)
+        # example: [3, 2, 1]
+        permutation = list(permutation)
+        print("\npermutation {}:".format(permutation))
+        num = 0
     permutation = [6,1,9,3,2,0,8,4,5,7]
     for cipher_number in cipher_numbers:
-        # num += 1
-        # permutated_list = [cipher_number[i] for i in permutation if i <= len(cipher_number)]
+        num += 1
         permutated_list = [cipher_number[i] for i in permutation if i < len(cipher_number)]
         for p in permutated_list:
             if isinstance(p, int):
