@@ -1,16 +1,19 @@
-Key (plain to cipher):	5,1,4,3,7,8,0,9,6,2
-Key (cipher to plain):	6,1,9,3,2,0,8,4,5,7
-Key length: 10
-
-THE ENIGMA MACHINES WERE A SERIES OF ELECTRO-MECHANICAL ROTOR CIPHER MACHINES DEVELOPED AND USED 
-IN THE EARLY TO MID TWENTIETH CENTURY TO PROTECT COMMERCIAL DIPLOMATIC AND MILITARY COMMUNICATION ENIGMA WAS 
-INVENTED BY THE GERMAN ENGINEER ARTHURS C HERB I US AT THE END OF WORLD WAR ONE EARLY MODELS WERE USED
-COMMERCIALLY FROM THE EARLY NINETEEN TWENTIES AND ADOPTED BY MILITARY AND GOVERNMENT SERVICES OF
-SEVERAL COUNTRIES MOST NOTABLY NAZI GERMANY BEFORE AND DURING WORLD WAR TWO SEVERAL
-DIFFERENT ENIGMA MODELS WERE PRODUCED BUT THE GERMAN MILITARY MODELS ARE THE MOST COMMONLY RECOGNISED
-HOWEVER JAPANESE AND ITALIAN MODELS HAVE BEEN USED GERMAN MILITARY MESSAGES ENCIPHERED
-ON THE ENIGMA MACHINE WERE FIRST BROKEN BY THE POLISH CIPHER BUREAU BEGINNING IN DECEMBER NINETEEN THIRTY-TWO THIS
-SUCCESS WAS A RESULT OF EFFORTS BY THREE POLISH CRYPTANALYSTS MARIAN RE JEW SKI JERZYR OZ YCK I AND HENRY KZY GAL SKI 
-WORKING FOR POLISH MILITARY INTELLIGENCE RE JEW SKI REVERSE ENGINEERED THE DEVICE USING THEORETICAL MATHEMATICS AND MATERIALS UP 
-PLIED BY FRENCH MILITARY INTELLIGENCE SUBSEQUENTLY THE THREE MATHEMATICIANS DESIGNED MECHANICAL DEVICES FOR BREAKING ENIGMA CIPHERS INCLUDING
-THE CRYPTOLOGIC BOMB FROM NINETEEN THIRTY-EIGHT ONWARDS ADDITIONAL COMPLEXITY WAS REPEATEDLY ADDED TO THE ENIGMA MACHINES MAKING DECRYPTION MORE DIFFICULT AND REQUIRING FURTHER EQUIPMENT AND PERSONNEL MORE THAN THE POLES COULD READILY PRODUCE ON TWENTY-SIX AND TWENTYSEVEN JULY NINETEEN THIRTY-NINE IN PYRY NEAR WARSAW THE POLES INITIATED FRENCH AND BRITISH MILITARY INTELLIGENCE REPRESENTATIVES INTO THEIR ENIGMA DECRYPTION TECHNIQUES AND EQUIPMENT INCLUDING ZY GAL SKI SHEETS AND THE CRYPTOLOGIC BOMB AND PROMISED EACH DE LEG AT IONA POLISH RECONSTRUCTED ENIGMA THE DEMONSTRATION REPRESENTED A VITAL BASIS FORTH ELATER BRITISH CONTINUATION AND EFFORT DURING THE WAR BRITISH CRYPTOLOGISTS DECRYPTED AVAST NUMBER OF MESSAGES ENCIPHERED ON ENIGMA ALAN TURING WAS THE CENTRAL FORCE IN BREAKING THE ENIGMA THE INTELLIGENCE GLEANED FROM THIS SOURCE CODENAMED ULTRA BY THE BRITISH WAS A SUBSTANTIAL AID TO THE ALLIED WAR EFFORT THOUGH ENIGMA HAD SOME CRYPTOGRAPHIC WEAKNESSES IN PRACTICE IT WAS GERMAN PROCEDURAL FLAWS OPERATOR MISTAKES FAILURE TO SYSTEMATICALLY INTRODUCE CHANGES IN ENCIPHER MEN T PROCEDURES AN DALLIED CAPTURE OF KEY TABLES AND HARDWARE THAT DURING THE WAR ENABLED ALLIED CRYPTOLOGISTS TO SUCCEED AND TURNED THE TIDE IN THE ALLIES FAV OR THE END
+ahg nimemtwe ce anie ssihre ar et folesromaeeca-cetihorcnh lo eipr rmavseehccne diloadude    pnsnhdtia- eeyrei-ott mdwle tcethtennopuorit t mrcmyert o,iicecpll
+madtam odcilri nmitai nucoynam oeniagi.cvim atesa  n twneeybntn egehdmai rn regh rusrtaecu i abesthtwoh erodn  reef aodrnelal d. ww ylmo sreorm se ucelefeadmicy 
+rerlaoht rnel emtninityeee eda wntn, saddptemby ao lr iatnryn idenoeetsvmgv ci sr foeeralctsoes uvnirsoem, talzbo  annrti aybgmya dene noerf r uodrnld iwwea grsv.ota
+ereetd wlffngi a rdnmo erimeeesru ddlobpwce  ht,eu t emmaniilgeosmarty l rse dorhtnammt oe omriecyo ls djchngo.earapeen, wtdensv  aa isdellaomvhb ei neees
+ au.enadgnrm
+lmi  mayteirsseagecehn p i tseeenoara nemhdgmhwii  ncftr  reesei r kenhytbloe sbipicupaoh bre ihnebun,rgiienegb n  ennrmcdienetheeti r.yto tswi shst sasce ulwa e
+ct fb eusrfofsyttor h hir erelocasyap spnymlrattr, ijskj einawe,kz r eys czayoinrdgkaye hry ,nisozkwi fn krlro p sthgiiloaryemiign lel cni.telrekews
+ire-eneejvsgiereetndde u  rhe,siecgetvnei tocaharmli ah iteamctsmn dateriellp pduiar bynsm ehr tfcinyialleie gtneilu.uss ceetrblq yn,thet h emaitiaheamctnid senseehdmn
+gaeaccio clfeeii asrdkv reecnbgg nip ,ehauirmsincl dingtylrh t co eogopfbcbm.im rnie  etnoehtnyei  grrthidadswo at,cn oinoildytapiamxewetdal e rpaloetsdd ed ehyt 
+tmcimamgne aisakein, htyod ngrciref dp mefairoin nutgciq endlirrqu uetfuietmp pherndarn e sotn lmoh-enheenpr  elosatoal rdddoic  euy.cpler
+ou
+i xntt esn wye ytnwtvs  nandujeneieye lnthy ieenrttnini  p,yarr yn aer wlpnshw,e eisa nota eeidtaftircn dhnbr itishmtl iltinria ilpygererec testneeeavtii ns hnodimeera
+tig-nnrctyetecqh oapniqeu dsnei uicmen in,yplugt nigizthdaess nstkel  ehdyga ropcicb,toor mliaodp s mbehe dn calid neeoaops ralg-tcedsttineohuci.r nagedmetmh e onstoati
+nrednterrasepaeib   ilsosttav  ehrtbf a eli iachtrrosnu intionttno ffderan wtd. rge,ath ubii shprcior rgo silyyttdr tcdeesp  etvnasmb ag suaoemeeefsrcp i s hernnio.mrdaenag
+lu t aingwnca snteh renctril on kebai feahn rtaeg eg ehmt. iniglticlendnrg eeaefieusl om heodsr  te,ca"cmo ena r ytuht"dile ibwbth ,bs a rsasaisnuattdhalto t i a riae lweol.t dofrhg
+iue
+ tfhma ghnca edeoymsr ptogiaph cweis,skrnesatei n eircrt c pea a aowngupmsrepladcrf aoe,sat rlkts rwosieumo ,atrala eesfm istc ayinttlyo ldieurnghpseacci nenci hermdnc
+roupeead netl, l irsaratdpaetuoek c b rely fseaadh ndwar, ettdiar wueahn  tehga ,nlarll oeid bdeitsoprygclcout tec srtn ds"dn te aueei tdilnde " htl'a hiesf.envh etr 
+ edao.
