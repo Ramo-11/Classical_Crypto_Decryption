@@ -10,3 +10,27 @@ def convert_letter_to_number(letter):
 
 def convert_number_to_letter(num):
     return chr(num + ord('a'))
+
+
+def mod_26_inverse(a, b, c, d):
+    det = (a*d - b*c) % 26
+    det_inv = 0
+    for i in range(26):
+        if (det * i) % 26 == 1:
+            det_inv = i
+            break
+    return (d * det_inv) % 26, (-b * det_inv) % 26, (-c * det_inv) % 26, (a * det_inv) % 26
+
+
+def inverse_matrix_mod_26(x):
+    a, b = x[0]
+    c, d = x[1]
+    return mod_26_inverse(a, b, c, d)
+
+
+def multiply_matrices_mod_26(matrix1, matrix2):
+    a, b = matrix1[0]
+    c, d = matrix1[1]
+    p, q = matrix2[0]
+    r, s = matrix2[1]
+    return [(a*p + b*r) % 26, (a*q + b*s) % 26], [(c*p + d*r) % 26, (c*q + d*s) % 26]
